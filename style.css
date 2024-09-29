@@ -24,16 +24,29 @@ header{
 
    
 }
+
+#head3{
+    background-color: white;
+   color: black;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    font-size: 20px;
+
+
+}
+#hd31{
+    font-weight: bolder;
+    font-size:30px;
+}
+#hd32{
+    background-color: gainsboro;
+    padding: 10px;
+}
 #s2{
     display: inline-block;
 }
-#d2:hover{
-background-color: black;
 
-}
-#s2:hover{
-    background-color: black; 
-}
 #img1{
     width: 20px;
     height: 15px;
@@ -44,6 +57,7 @@ border-radius: 10px;
 width: 320px;
 height: 180px;
 display: inline-block;
+margin: 20px;
 
 }
 #part1{
@@ -54,6 +68,10 @@ border-top-right-radius: 10px;
 padding: 8px;
 
 }
+#apart1{
+    color: black;
+}
+
 button{
     background-color: red;
     color: white;
@@ -77,4 +95,152 @@ font-family: cursive;
     color: red;
     
    
+}
+#ts1, #ts2{
+font-size: 15px;
+}
+
+#ts2{
+
+
+    
+}
+
+ h4{
+    display: inline-block;
+    margin: 20px ;
+}
+
+#box1{
+    
+    width: 200px;
+   display: inline-block;
+    background-color: white;
+    padding: 10px;
+    vertical-align: top;
+    margin-left: 180px;
+    border-radius: 10px
+
+}
+h2 , h3{
+    display: inline-block;
+    color: rgb(3, 145, 107);
+}
+
+#ab1{
+    font-size: 20px;
+}
+#box2{
+    display:inline-block;
+    width: 500px;
+    background-color: white;
+    vertical-align: top;
+    padding: 10px;
+    border-radius: 10px
+}
+#box3{
+    background-color: white;
+    vertical-align: top;
+    padding: 10px;
+    display: inline-block;
+    width: 350px;
+    height: 900px;
+    border-radius: 10px;
+    
+
+}
+#bb3{
+    width: 120px;
+    height: 40px;
+    background-color: green;
+   
+    font-size: 15px;
+    padding: 10px;
+    border: 1px solid white;
+}
+#ab3{
+    color:black;
+   }
+#ib31{
+    background-image: url("https://static.cricbuzz.com/a/img/v1/290x164/i1/c551239/cricbuzz-chatter-india-v-bang.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    border-radius: 10px;
+    
+}
+#ib32{
+    background-image: url("https://static.cricbuzz.com/a/img/v1/290x164/i1/c551256/glad-with-retention-of-impact.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    border-radius: 10px;
+
+}
+#ib33{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+
+
+
+
+#bb3:hover{
+    background-color: rgb(65, 145, 65);
+}
+#lb3{
+    color:white;
+    
+}
+#box4{
+    width: 200px;
+    display: inline-block;
+     background-color: white;
+     padding: 10px;
+     vertical-align:top;
+     margin-left: 180px;
+     border-radius: 10px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#but2{
+    background-color:lightgrey;
+   border: 1px solid gainsboro;
+   font-size: 20px;
+   width: 80px;
+    
+}
+#abut2{
+    color: white;
 }
