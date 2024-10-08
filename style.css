@@ -1,7 +1,7 @@
 
 body{
    background-color: gainsboro; 
-    
+  padding-top: 50px;
     
 }
 
@@ -13,6 +13,8 @@ header{
     align-items:center;
     font-size: 20px;
     padding:8px;
+    margin-left: 100px; 
+margin-right: 100px;
     
 }
 #head2{
@@ -20,8 +22,8 @@ header{
     color:white;
     font-size: 15px;
     height: 30px;
-    
-
+   margin-left: 100px; 
+margin-right: 100px;
    
 }
 
@@ -32,6 +34,8 @@ header{
     justify-content:space-around;
     align-items:center;
     font-size: 20px;
+    margin-left:100px ;
+    margin-right: 100px;
 
 
 }
@@ -51,14 +55,17 @@ header{
     width: 20px;
     height: 15px;
 }
+#alldeva{
+    margin-left:100px ;
+    
+}
 #deva{
 background-color:gray;
 border-radius: 10px;
 width: 320px;
 height: 180px;
 display: inline-block;
-margin: 20px;
-
+margin-left: 1px;
 }
 #part1{
 background-color:white;
@@ -99,28 +106,33 @@ font-family: cursive;
 #ts1, #ts2{
 font-size: 15px;
 }
-
-#ts2{
-
-
-    
+#mainbox1{
+  display: inline-block; 
+  
 }
 
- h4{
-    display: inline-block;
-    margin: 20px ;
-}
+
 
 #box1{
     
-    width: 200px;
-   display: inline-block;
+    width: 250px;
+   
     background-color: white;
     padding: 10px;
     vertical-align: top;
-    margin-left: 180px;
+    margin-left: 100px;
     border-radius: 10px
 
+}
+#box11{
+    position: relative;
+    top: 10px;
+  width: 250px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  margin-left: 100px;
+  border-radius: 10px;
+ 
 }
 h2 , h3{
     display: inline-block;
@@ -130,42 +142,93 @@ h2 , h3{
 #ab1{
     font-size: 20px;
 }
+#mainbox2{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+   
+}
 #box2{
-    display:inline-block;
+   height: 1600px;
     width: 500px;
     background-color: white;
-    vertical-align: top;
+    padding: 10px;
+    border-radius: 10px;
+  
+}
+#box22{
+    position: relative;
+    top: 30px;
+    left: -10px;
+    width: 500px;
+    background-color:rgb(255, 255, 255); 
     padding: 10px;
     border-radius: 10px
+
+}
+#mainbox3{
+    display: inline-block;
+    vertical-align: top;
 }
 #box3{
     background-color: white;
-    vertical-align: top;
+    
     padding: 10px;
+    width: 460px;
     display: inline-block;
-    width: 350px;
-    height: 900px;
+    height: 1050px;
     border-radius: 10px;
+    margin-left: 10px;
     
 
 }
 #bb3{
+    position: relative;
     width: 120px;
     height: 40px;
     background-color: green;
-   
     font-size: 15px;
     padding: 10px;
     border: 1px solid white;
+    z-index: 0;
+    overflow: hidden;
+    transition: .3s;
+    cursor: pointer;
 }
-#ab3{
-    color:black;
+#bb3:hover{
+    color: black;
+}
+#bb3::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 100%;
+    z-index: -1;
+    transition: 0.5s;
+    color: black;
+    background-color: rgb(124, 118, 116);
+}
+#bb3:hover::before{
+    color: black;
+    width: 100%;
+}
+#ab32{
+    color:white;
+    
+   }
+   #ab32{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 180%;
    }
 #ib31{
     background-image: url("https://static.cricbuzz.com/a/img/v1/290x164/i1/c551239/cricbuzz-chatter-india-v-bang.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 200px;
+    height: 250px;
     border-radius: 10px;
     
 }
@@ -173,17 +236,33 @@ h2 , h3{
     background-image: url("https://static.cricbuzz.com/a/img/v1/290x164/i1/c551256/glad-with-retention-of-impact.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 200px;
+    height: 250px;
     border-radius: 10px;
 
 }
-#ib33{
-    background-image: url();
-    background-repeat: no-repeat;
-    background-size: cover;
-
+#box32{
+    position: relative;
+    right: 10px;
+    margin-top: 70px;
+    background-color: white;
+    padding: 10px;
+    width: 450px;
+    border-radius: 10px;
 }
 
+
+
+
+
+#box33{
+    background-color: white;
+    padding: 10px;
+    width: 450px;
+    border-radius: 10px;
+    position: relative;
+    right: 10px;
+    margin-top: 10px;
+}
 
 
 
@@ -197,50 +276,19 @@ h2 , h3{
     color:white;
     
 }
-#box4{
-    width: 200px;
-    display: inline-block;
-     background-color: white;
-     padding: 10px;
-     vertical-align:top;
-     margin-left: 180px;
-     border-radius: 10px
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #but2{
-    background-color:lightgrey;
+    background-color:rgb(132, 131, 131);
    border: 1px solid gainsboro;
    font-size: 20px;
-   width: 80px;
+   width: 150px;
+   margin-bottom:50px;
+   
     
 }
 #abut2{
-    color: white;
+    color: white; 
+}
+a{
+    text-decoration: none;
 }
